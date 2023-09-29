@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-e2e-testing-with-no-framework",
+  "version": "1.0.0",
+  "description": "Creating e2e tests in node.js with no frameworks in the non-lts version (19.8.1)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/api.js",
+    "test:dev": "node --test --watch src/api.test.js",
+    "test": "node --test src/api.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
